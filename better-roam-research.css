@@ -6,6 +6,7 @@
 
 .rm-highlight {
     background-color: #E8E6B5 !important;
+    border-radius: 4px;
     color: black;
 }
 
@@ -21,4 +22,16 @@ code {
     color: #FF4675;
     background-color: #20070E;
     border-width: 0px;
+}
+
+.rm-heading-level-2 > .rm-block-main span {
+    font-size: 19px !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+    color: var(--c2) !important;
+}
+
+.rm-heading-level-3 > .rm-block-main span {
+    margin-top: -1px !important;
+    color: var(--c4) !important;
 }
