@@ -1,7 +1,7 @@
 @import url("https://linuz90.github.io/better-roam-research/main.css");
 
-.rm-bold {
-    color: #C1E0F2;
+.rm-bold, .rm-attr-ref{
+    color: #A2F4CD;
 }
 
 .rm-highlight {
@@ -24,14 +24,26 @@ code {
     border-width: 0px;
 }
 
+
+
 .rm-heading-level-2 > .rm-block-main span {
-    font-size: 19px !important;
-    line-height: 1.5 !important;
-    font-weight: 600 !important;
-    color: var(--c2) !important;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--c1);
 }
 
 .rm-heading-level-3 > .rm-block-main span {
-    margin-top: -1px !important;
-    color: var(--c4) !important;
+    margin-top: -1px;
+    font-weight: 400;
+    color: var(--c2);
 }
+
+.rm-block-text {
+    font-weight: 150;
+    line-height: 1.6em;
+}
+
+
+
+
