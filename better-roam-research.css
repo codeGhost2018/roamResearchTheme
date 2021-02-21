@@ -1,0 +1,24 @@
+@import url("https://linuz90.github.io/better-roam-research/main.css");
+
+.rm-bold {
+    color: #C1E0F2;
+}
+
+.rm-highlight {
+    background-color: #E8E6B5 !important;
+    color: black;
+}
+
+.rm-page-ref--tag {
+    color: #d2c9e0;
+    font-weight: bold;
+}
+
+code {
+    margin: 2px;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #FF4675;
+    background-color: #20070E;
+    border-width: 0px;
+}
